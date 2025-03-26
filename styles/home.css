@@ -1,3 +1,7 @@
+:root {
+    --swiper-theme-color: var(--c-primary);
+}
+
 header {
     display: flex;
     align-items: center;
@@ -78,4 +82,38 @@ h2 {
     margin: 0;
     font-size: 1.5rem;
     text-align: center;
+}
+
+.swiper {
+    width: 100%;
+    max-width: 45rem;
+    height: 100%;
+    border-radius: 0.5rem;
+}
+
+.swiper .swiper-button {
+    width: 3rem;
+    height: 3rem;
+    background: var(--c-primary-text);
+    box-shadow: var(--e-shadow);
+    border-radius: 100vw;
+    backdrop-filter: blur(1rem);
+    background: rgba(255, 255, 255, 0.75);
+}
+
+.swiper .swiper-button:hover {
+    background: rgba(255, 255, 255, 1);
+}
+
+.swiper .swiper-button:active {
+    transform: scale(0.9);
+}
+
+.swiper .swiper-button::after {
+    font-size: 1.5rem;
+    color: var(--c-primary);
+}
+
+.swiper .swiper-pagination {
+    opacity: 0.75;
 }

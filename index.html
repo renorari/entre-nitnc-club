@@ -20,7 +20,7 @@
     <meta property="og:image" content="https://entre.nitnc.club/assets/images/ogp.png">
     <meta property="og:site_name" content="アントレプレナークラブ">
     <meta property="og:description" content="このページでは、長岡高専のアントレプレナークラブについて紹介しています。">
-    
+
     <!-- twitter -->
     <meta name="twitter:card" content="summary_large_image">
 
@@ -28,8 +28,30 @@
     <link rel="icon" href="/assets/images/favicon.ico">
 
     <!-- css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="/styles/main.css">
     <link rel="stylesheet" href="/styles/home.css">
+
+    <!-- script -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const swiper = new Swiper(".swiper", {
+                loop: true,
+                speed: 1000,
+                autoplay: {
+                    delay: 5000
+                },
+                pagination: {
+                    el: ".swiper-pagination"
+                },
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev"
+                }
+            });
+        });
+    </script>
 </head>
 
 <body>
@@ -200,6 +222,19 @@
         </section>
         <section id="slide">
             <h2>Slides</h2>
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <img src="/assets/images/slides/1.png" alt="Slide 1" class="swiper-slide">
+                    <img src="/assets/images/slides/2.png" alt="Slide 2" class="swiper-slide">
+                    <img src="/assets/images/slides/3.png" alt="Slide 3" class="swiper-slide">
+                    <img src="/assets/images/slides/4.png" alt="Slide 4" class="swiper-slide">
+                    <img src="/assets/images/slides/5.png" alt="Slide 5" class="swiper-slide">
+                </div>
+                <div class="swiper-pagination"></div>
+
+                <div class="swiper-button swiper-button-prev"></div>
+                <div class="swiper-button swiper-button-next"></div>
+            </div>
         </section>
         <section id="trial">
             <h2>Trial joining</h2>

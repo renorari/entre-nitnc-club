@@ -31,28 +31,6 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="/styles/main.css?v=20250327">
     <link rel="stylesheet" href="/styles/home.css?v=20250327">
-
-    <!-- script -->
-    <script type="module">
-        import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.mjs'
-
-        document.addEventListener("DOMContentLoaded", () => {
-            const swiper = new Swiper(".swiper", {
-                loop: true,
-                speed: 1000,
-                autoplay: {
-                    delay: 5000
-                },
-                pagination: {
-                    el: ".swiper-pagination"
-                },
-                navigation: {
-                    nextEl: ".swiper-button-next",
-                    prevEl: ".swiper-button-prev"
-                }
-            });
-        });
-    </script>
 </head>
 
 <body>
@@ -329,6 +307,26 @@
             たくさんのご入部 お待ちしております！
         </p>
     </footer>
+
+    <!-- script -->
+    <script type="module">
+        import Swiper from "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.mjs";
+
+        const swiper = new Swiper(".swiper", {
+            loop: true,
+            speed: 1000,
+            autoplay: {
+                delay: 5000
+            },
+            pagination: {
+                el: ".swiper-pagination"
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev"
+            }
+        });
+    </script>
 </body>
 
 </html>

@@ -25,10 +25,10 @@
 
 @font-face {
     font-family: "Koruri";
-    src: url("/assets/fonts/Koruri-SemiBold.woff2") format("woff2"),
-        url("/assets/fonts/Koruri-SemiBold.woff") format("woff"),
-        url("/assets/fonts/Koruri-SemiBold.eot") format("embedded-opentype"),
-        url("/assets/fonts/Koruri-SemiBold.ttf") format("truetype");
+    src: url("/assets/fonts/Koruri-Semibold.woff2") format("woff2"),
+        url("/assets/fonts/Koruri-Semibold.woff") format("woff"),
+        url("/assets/fonts/Koruri-Semibold.eot") format("embedded-opentype"),
+        url("/assets/fonts/Koruri-Semibold.ttf") format("truetype");
     font-style: normal;
     font-weight: 500;
     font-display: swap;

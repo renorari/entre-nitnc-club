@@ -14,7 +14,7 @@ header {
 }
 
 header h1 img {
-    filter: brightness(1.5);
+    filter: brightness(10);
     will-change: filter;
     display: block;
     width: 100%;
@@ -63,7 +63,7 @@ h2 {
 }
 
 #ending img {
-    filter: brightness(1.5);
+    filter: brightness(10);
     will-change: filter;
     display: block;
     width: 45rem;
@@ -71,7 +71,7 @@ h2 {
 }
 
 #ending hr {
-    filter: brightness(1.5);
+    filter: brightness(10);
     will-change: filter;
     width: 45rem;
     max-width: 100%;
@@ -81,7 +81,7 @@ h2 {
 }
 
 #ending p {
-    filter: brightness(1.5);
+    filter: brightness(10);
     will-change: filter;
     margin: 0;
     font-size: 1.5rem;

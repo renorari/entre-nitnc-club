@@ -216,3 +216,9 @@ main section:first-child {
     font-size: 1rem;
     color: #e6e6e6;
 }
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+}

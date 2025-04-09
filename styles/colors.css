@@ -1,6 +1,7 @@
 :root {
     --c-background: #f2f5ff;
     --c-card-background: #ffffff;
+    --c-card-background-transparent: rgba(255, 255, 255, 0.5);
     --c-card-title-icon-background: #f2f2f2;
 
     --c-text: #000000;
@@ -44,6 +45,7 @@
     :root {
         --c-background: #14151a;
         --c-card-background: #1a1a1a;
+        --c-card-background-transparent: rgba(26, 26, 26, 0.5);
         --c-card-title-icon-background: #333333;
 
         --c-text: #ffffff;

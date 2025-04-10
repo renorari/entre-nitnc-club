@@ -183,16 +183,15 @@ main section:first-child {
     border-radius: 0.5rem;
 }
 
-.card.completed .card-content {
+.card .card-content:has(.completed) {
     pointer-events: none;
     user-select: none;
     -webkit-user-select: none;
 }
 
-.card.completed .card-content::after {
+.card .card-content .completed {
     backdrop-filter: blur(0.5rem);
     -webkit-backdrop-filter: blur(0.5rem);
-    content: "終了しました!\Aご参加いただきありがとうございました";
     display: flex;
     justify-content: center;
     align-items: center;
@@ -202,10 +201,10 @@ main section:first-child {
     left: 0;
     right: 0;
     margin: -1rem;
+    padding: 1rem;
     background: var(--c-card-background-transparent);
     border-radius: 0.5rem;
     font-size: 1.25rem;
-    white-space: pre;
 }
 
 .image-card {

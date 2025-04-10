@@ -239,6 +239,11 @@ main section:first-child {
     color: #fff;
 }
 
+.image-card .image-card-title.light {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.25));
+    text-shadow: var(--e-shadow);
+}
+
 .image-card .image-card-title .image-card-place {
     font-size: 1rem;
     color: #e6e6e6;

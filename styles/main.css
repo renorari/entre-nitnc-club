@@ -235,7 +235,6 @@ main section:first-child {
     right: 0;
     padding: 1rem;
     background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
-    font-size: 1.25rem;
     color: #fff;
     text-shadow: var(--e-text-shadow);
 }

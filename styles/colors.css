@@ -36,6 +36,7 @@
 
     --c-shadow: rgba(0, 0, 0, 0.05);
     --c-text-shadow: rgba(0, 0, 0, 0.25);
+    /* 影のY位置計算: (ブラーの大きさ)^0.5 / 4 */
     --e-shadow: 0 0.354rem 2rem var(--c-shadow);
     --e-shadow-hover: 0 0.395rem 2.5rem var(--c-shadow);
     --e-text-shadow: 0 0.177rem 0.5rem var(--c-text-shadow);
